@@ -46,9 +46,8 @@ For training and prediction and results:
 training.py
 ```
 ### **Configurartion**
-For configuring which model,batch size and path to use upadte file:
+For configuring which model,batch size and path to use upadte config.py file:
 ```
-config.py
 
 class Config:
 
