@@ -49,5 +49,5 @@ training.py
 ### **Deployment **
 Run from terminal
 ```
-deploy.py
+python deploy.py
 ```
