@@ -1,5 +1,5 @@
 # **ChatBot**
-From my interest I intend to make a chatbot using python and NLTK
+From my interest in Natural language processing I intend to make a chatbot using python and NLTK
 ### **Motivation**
 In this modern era digital marketing and onlile shopping is increasing day by day.Real time customer support is a growing need for all type of buisness holder. From this my interset grwon and wanted to make a chatbot.
 ### **BlogPost**
