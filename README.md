@@ -10,7 +10,43 @@ For detailed overview, here is the accompanying blog[a link](https://medium.com/
 Natural Language Processing with Python provides a practical introduction to programming for language processing.
 
 For platform-specific instructions, [read here](https://www.nltk.org/install.html)
-### **Deployment Instruction**
+### **Project files short description**
+#### **Data**
+For making a chatbot it's necessary to have a large dataset according to ones domain. I had my own dataset where one column shows the queries and another coulmn displays correspondent  intents. Another data file contains intents and theie replies.
+### **Data Preprocessing**
+```
+data_loader.py
+```
+This file contains all sorts of data preproceesing.For starters:Tokenization,stemming.Bag of words,lower casing.
+### **Models**
+I tried many models to get better accuracy for better results.For instance:
+```
+base_model.py
+```
+```
+cnn_bigru.py
+```
+```
+cnn_bilstm.py
+```
+```
+cnn_lstm.py
+```
+```
+tflearn.py
+```
+To call them I used factory method
+```
+factory.py
+```
+
+### **Train**
+For training and prediction and results:
+```
+training.py
+```
+
+### **Deployment **
 Run from terminal
 ```
 deploy.py
