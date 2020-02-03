@@ -45,6 +45,29 @@ For training and prediction and results:
 ```
 training.py
 ```
+### **Configurartion**
+For configuring which model,batch size and path to use upadte file:
+```
+config.py
+
+class Config:
+
+    @staticmethod
+    def get_model_name() -> str:
+        return "CnnBilstm"
+
+    @staticmethod
+    def get_batch_size() -> int:
+        return 16
+
+    @staticmethod
+    def get_epochs() -> int:
+        return 200
+
+    @staticmethod
+    def get_dataset_path() -> str:
+        return "../../data/All_intent.csv"
+```
 
 ### **Deployment **
 Run from terminal
