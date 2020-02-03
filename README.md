@@ -12,6 +12,6 @@ Natural Language Processing with Python provides a practical introduction to pro
 For platform-specific instructions, [read here](https://www.nltk.org/install.html)
 ### **Deployment Instruction**
 Run from terminal
-'''
-deploy.py  
-'''
+```
+deploy.py
+```
